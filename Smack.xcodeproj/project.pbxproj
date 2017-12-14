@@ -20,6 +20,7 @@
 		B2B886DA1FE2DFE300CE4E2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */; };
 		B2B886DC1FE2E4C300CE4E2D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886DB1FE2E4C300CE4E2D /* CreateAccountViewController.swift */; };
 		B2CCA6B31FE3034700F1D4DD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCA6B21FE3034700F1D4DD /* AuthService.swift */; };
+		B2CCA6B51FE32F2900F1D4DD /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CCA6B41FE32F2900F1D4DD /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B2B886DB1FE2E4C300CE4E2D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		B2CCA6B21FE3034700F1D4DD /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B2CCA6B41FE32F2900F1D4DD /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				B2B886D41FE23D1D00CE4E2D /* GradientView.swift */,
+				B2CCA6B41FE32F2900F1D4DD /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B886DA1FE2DFE300CE4E2D /* LoginViewController.swift in Sources */,
+				B2CCA6B51FE32F2900F1D4DD /* RoundedButton.swift in Sources */,
 				B23B52C71FE1D1BC00A61F75 /* AppDelegate.swift in Sources */,
 				B23B52E11FE1E22F00A61F75 /* ChatViewController.swift in Sources */,
 				B2CCA6B31FE3034700F1D4DD /* AuthService.swift in Sources */,
