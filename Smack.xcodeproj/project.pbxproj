@@ -16,6 +16,8 @@
 		B23B52E31FE1E24400A61F75 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23B52E21FE1E24400A61F75 /* ChannelViewController.swift */; };
 		B2B886D31FE1EE7200CE4E2D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D11FE1EE7200CE4E2D /* SWRevealViewController.m */; };
 		B2B886D51FE23D1D00CE4E2D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D41FE23D1D00CE4E2D /* GradientView.swift */; };
+		B2B886D81FE2DA2600CE4E2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D71FE2DA2600CE4E2D /* Constants.swift */; };
+		B2B886DA1FE2DFE300CE4E2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B2B886D11FE1EE7200CE4E2D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		B2B886D21FE1EE7200CE4E2D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		B2B886D41FE23D1D00CE4E2D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B2B886D71FE2DA2600CE4E2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		B23B52C51FE1D1BC00A61F75 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				B2B886D61FE2DA0E00CE4E2D /* Utilities */,
 				B23B52DF1FE1E20900A61F75 /* Model */,
 				B23B52DE1FE1E20300A61F75 /* View */,
 				B23B52DD1FE1E1FE00A61F75 /* Controller */,
@@ -102,8 +107,9 @@
 		B23B52DD1FE1E1FE00A61F75 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B23B52E21FE1E24400A61F75 /* ChannelViewController.swift */,
 				B23B52E01FE1E22F00A61F75 /* ChatViewController.swift */,
+				B23B52E21FE1E24400A61F75 /* ChannelViewController.swift */,
+				B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +137,14 @@
 				B2B886D01FE1EE7100CE4E2D /* Smack-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2B886D61FE2DA0E00CE4E2D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B2B886D71FE2DA2600CE4E2D /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,11 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B886DA1FE2DFE300CE4E2D /* LoginViewController.swift in Sources */,
 				B23B52C71FE1D1BC00A61F75 /* AppDelegate.swift in Sources */,
 				B23B52E11FE1E22F00A61F75 /* ChatViewController.swift in Sources */,
 				B2B886D51FE23D1D00CE4E2D /* GradientView.swift in Sources */,
 				B23B52E31FE1E24400A61F75 /* ChannelViewController.swift in Sources */,
 				B2B886D31FE1EE7200CE4E2D /* SWRevealViewController.m in Sources */,
+				B2B886D81FE2DA2600CE4E2D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
