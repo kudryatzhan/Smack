@@ -18,6 +18,7 @@
 		B2B886D51FE23D1D00CE4E2D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D41FE23D1D00CE4E2D /* GradientView.swift */; };
 		B2B886D81FE2DA2600CE4E2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D71FE2DA2600CE4E2D /* Constants.swift */; };
 		B2B886DA1FE2DFE300CE4E2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */; };
+		B2B886DC1FE2E4C300CE4E2D /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B886DB1FE2E4C300CE4E2D /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B2B886D41FE23D1D00CE4E2D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B2B886D71FE2DA2600CE4E2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B2B886DB1FE2E4C300CE4E2D /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				B23B52E01FE1E22F00A61F75 /* ChatViewController.swift */,
 				B23B52E21FE1E24400A61F75 /* ChannelViewController.swift */,
 				B2B886D91FE2DFE300CE4E2D /* LoginViewController.swift */,
+				B2B886DB1FE2E4C300CE4E2D /* CreateAccountViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				B23B52C71FE1D1BC00A61F75 /* AppDelegate.swift in Sources */,
 				B23B52E11FE1E22F00A61F75 /* ChatViewController.swift in Sources */,
 				B2B886D51FE23D1D00CE4E2D /* GradientView.swift in Sources */,
+				B2B886DC1FE2E4C300CE4E2D /* CreateAccountViewController.swift in Sources */,
 				B23B52E31FE1E24400A61F75 /* ChannelViewController.swift in Sources */,
 				B2B886D31FE1EE7200CE4E2D /* SWRevealViewController.m in Sources */,
 				B2B886D81FE2DA2600CE4E2D /* Constants.swift in Sources */,

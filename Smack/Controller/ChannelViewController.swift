@@ -19,7 +19,12 @@ class ChannelViewController: UIViewController {
     
         self.revealViewController().rearViewRevealWidth = view.frame.size.width - 60
     }
+    
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
+    
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) {
+        
     }
 }

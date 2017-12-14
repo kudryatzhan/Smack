@@ -1,5 +1,5 @@
 //
-//  Constants.swift
+//  AuthService.swift
 //  Smack
 //
 //  Created by Kudryatzhan Arziyev on 12/14/17.
@@ -7,8 +7,3 @@
 //
 
 import Foundation
-
-// Segues
-let TO_LOGIN = "toLogin"
-let TO_CREATE_ACCOUNT = "toCreateAccount"
-let UNWIND = "unwindToChannel"
