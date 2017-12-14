@@ -37,9 +37,11 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
         AuthService.instance.registerUser(email: email, password: password) { (success) in
             
             if success {
-                print("Registered user successfully")
-            } else {
-                print("Could not register user")
+                AuthService.instance.loginUser(email: email, password: password, completion: { (success) in
+                    if success {
+                        print("Logged in user!", AuthService.instance.authToken)
+                    }
+                })
             }
         }
         
